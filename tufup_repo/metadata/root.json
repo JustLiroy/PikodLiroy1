@@ -1,0 +1,35 @@
+{
+  "_type": "root",
+  "spec_version": "1.0",
+  "version": 1,
+  "expires": "2026-12-31T23:59:59Z",
+  "keys": {
+    "root": {
+      "keytype": "rsa",
+      "scheme": "rsassa-pss-sha256",
+      "keyid_hash_algorithms": ["sha256", "sha512"],
+      "keyval": {
+        "public": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxV4W2Kkz1Ov3XnX8Y9z2\nQ7R8w3T5v6P7k2L1m9N8o3X4w6Z1b2C5v7N9m8X3y6K2j5F4t8R1n7Q3w6Z9b2\nC5v7N9m8X3y6K2j5F4t8R1n7Q3w6Z9b2C5v7N9m8X3y6K2j5F4t8R1n7Q3w6Z9\nb2C5v7N9m8X3y6K2j5F4t8R1n7Q3w6Z9b2C5v7N9m8X3y6K2j5F4t8R1n7Q3w\n6Z9b2C5v7N9m8X3y6K2j5F4t8R1n7Q3w6Z9b2C5v7N9m8X3y6K2j5F4t8R1n7\nQ3w6Z9b2C5v7N9m8X3y6K2j5F4t8R1n7Q3w6Z9b2C5v7N9m8X3y6K2j5F4t8R1\nn7Q3w6Z9b2C5v7N9m8X3y6K2j5F4t8R1n7Q3w6Z9b2C5v7N9m8X3y6K2j5F4t8\nR1n7Q3w6Z9b2C5v7N9m8X3y6K2j5F4t8R1n7Q3w6Z9b2C5v7N9m8X3y6K2j5F4\n-----END PUBLIC KEY-----"
+      }
+    }
+  },
+  "roles": {
+    "root": {
+      "threshold": 1,
+      "keyids": ["root"]
+    },
+    "snapshot": {
+      "threshold": 1,
+      "keyids": ["root"]
+    },
+    "targets": {
+      "threshold": 1,
+      "keyids": ["root"]
+    },
+    "timestamp": {
+      "threshold": 1,
+      "keyids": ["root"]
+    }
+  },
+  "consistent_snapshot": false
+}
